@@ -1,7 +1,6 @@
 {
-  "buildCommand": "npm run build",
+  "buildCommand": "expo export -p web",
   "outputDirectory": "web-build",
-  "devCommand": "npm run web",
   "installCommand": "npm install",
   "framework": null
 }
