@@ -7,7 +7,7 @@ import {
 import axios from 'axios';
 
 const { width, height } = Dimensions.get('window');
-const API = axios.create({ baseURL: 'http://localhost:5000/api', headers: { 'Content-Type': 'application/json' } });
+const API = axios.create({ baseURL: 'https://finance-backend.onrender.com/api', headers: { 'Content-Type': 'application/json' } });
 
 const CATEGORIES = ['Food', 'Transport', 'Shopping', 'Entertainment', 'Bills', 'Healthcare', 'Education', 'Salary', 'Freelance', 'Other'];
 
